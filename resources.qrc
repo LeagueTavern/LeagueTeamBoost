@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/stylesheet/style.qss</file>
+        <file>resources/images/folder.png</file>
+        <file>resources/images/search.png</file>
+        <file>resources/images/logo.png</file>
+        <file>resources/images/close_hover.png</file>
+        <file>resources/images/close_normal.png</file>
+        <file>resources/images/minisize_hover.png</file>
+        <file>resources/images/minisize_normal.png</file>
+        <file>resources/images/bilibili.png</file>
+        <file>resources/images/github.png</file>
+        <file>resources/images/line.png</file>
+    </qresource>
+</RCC>

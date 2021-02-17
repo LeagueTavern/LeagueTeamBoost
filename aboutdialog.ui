@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AboutDialog</class>
+ <widget class="QDialog" name="AboutDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>25</number>
+   </property>
+   <property name="topMargin">
+    <number>25</number>
+   </property>
+   <property name="rightMargin">
+    <number>25</number>
+   </property>
+   <property name="bottomMargin">
+    <number>25</number>
+   </property>
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="styleSheet">
+      <string notr="true">font-family: Microsoft YaHei;
+font-style: normal;
+font-weight: 290;
+font-size: 22px;
+line-height: 29px;
+
+color: #FFFFFF;</string>
+     </property>
+     <property name="text">
+      <string>LeagueTeamBoost</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="styleSheet">
+      <string notr="true">font-family: Microsoft YaHei;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.5);</string>
+     </property>
+     <property name="text">
+      <string>一键解锁战斗福利</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>25</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QLabel" name="lbl_line"/>
+   </item>
+   <item>
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>15</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <property name="horizontalSpacing">
+      <number>12</number>
+     </property>
+     <property name="verticalSpacing">
+      <number>8</number>
+     </property>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="maximumSize">
+        <size>
+         <width>25</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-family: Microsoft YaHei;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #59D2B5;</string>
+       </property>
+       <property name="text">
+        <string>版本</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_4">
+       <property name="styleSheet">
+        <string notr="true">font-family: Microsoft YaHei;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #59D2B5;</string>
+       </property>
+       <property name="text">
+        <string>1.0.0.0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="styleSheet">
+        <string notr="true">font-family: Microsoft YaHei;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #FFFFFF;</string>
+       </property>
+       <property name="text">
+        <string>作者</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_6">
+       <property name="styleSheet">
+        <string notr="true">font-family: Microsoft YaHei;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.5);
+</string>
+       </property>
+       <property name="text">
+        <string>Mario &amp; ButterCookies</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="styleSheet">
+        <string notr="true">font-family: Microsoft YaHei;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #FFFFFF;</string>
+       </property>
+       <property name="text">
+        <string>声明</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label_8">
+         <property name="styleSheet">
+          <string notr="true">font-family: Microsoft YaHei;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.5);
+</string>
+         </property>
+         <property name="text">
+          <string>此软件的开发完全遵循RIOT开发者协议，不修改游戏的任何文件或内存，所有效果均为调用RIOT League of Legends开放API实现。</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_11">
+         <property name="styleSheet">
+          <string notr="true">font-family: Microsoft YaHei;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.5);
+</string>
+         </property>
+         <property name="text">
+          <string>此软件仅供学习交流使用，严禁用于任何商业用途！</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_9">
+       <property name="styleSheet">
+        <string notr="true">font-family: Microsoft YaHei;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #FFFFFF;</string>
+       </property>
+       <property name="text">
+        <string>反馈</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0" colspan="2">
+        <widget class="QLabel" name="label_10">
+         <property name="styleSheet">
+          <string notr="true">font-family: Microsoft YaHei;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.5);
+</string>
+         </property>
+         <property name="text">
+          <string>如有任何问题请联系作者。</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QLabel" name="label_12">
+         <property name="styleSheet">
+          <string notr="true">font-family: Microsoft YaHei;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.5);
+</string>
+         </property>
+         <property name="text">
+          <string>Mario(UID 14671179)  ButterCookies(UID 248303677)</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="spacing">
+      <number>15</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="btn_ok">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>确定</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_github">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_bilibili">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
