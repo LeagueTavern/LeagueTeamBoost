@@ -217,8 +217,8 @@ void Widget::unlockTeamBoost()
     url += StringUrlTeamBoost;
 
     QString string = m_httpsManager->post(url, "");
-    if (string.isEmpty() || string.contains("errorCode")) {
-        QMessageBox::critical(this, QStringLiteral("失败!"), QStringLiteral("请确保当前选择的客户端处于无限火力模式的选人阶段再使用此软件!"));
+    if (string.contains("errorCode")) {
+        QMessageBox::critical(this, QStringLiteral("失败!"), QStringLiteral("已解锁或当前的模式不支持!"));
     }
 }
 
@@ -234,6 +234,6 @@ void Widget::getTeamBoostState()
     if (string.isEmpty() || string.contains("errorCode")) {
         QMessageBox::critical(this, QStringLiteral("失败!"), QStringLiteral("当前模式不支持解锁战斗福利!"));
     } else {
-        QMessageBox::critical(this, QStringLiteral("成功!"), QStringLiteral("当前模式支持解锁战斗福利!"));
+        QMessageBox::about(this, QStringLiteral("成功!"), QStringLiteral("当前模式支持解锁战斗福利!"));
     }
 }

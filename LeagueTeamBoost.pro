@@ -26,8 +26,14 @@ FORMS += \
     widget.ui \
     widget.ui
 
-LIBS += -L$$PWD/libs/lib/ -llibcurl_a
-PRE_TARGETDEPS += $$PWD/libs/lib/libcurl_a.lib
+contains(QT_ARCH, i386) {
+LIBS += -L$$PWD/libs/lib/x86/ -llibcurl_a
+PRE_TARGETDEPS += $$PWD/libs/lib/x86/libcurl_a.lib
+} else {
+LIBS += -L$$PWD/libs/lib/x64/ -llibcurl_a
+PRE_TARGETDEPS += $$PWD/libs/lib/x64/libcurl_a.lib
+}
+
 INCLUDEPATH += $$PWD/libs/include
 DEPENDPATH += $$PWD/libs/include
 
