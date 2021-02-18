@@ -1,5 +1,7 @@
 # LeagueTeamBoost
 
+> 腾讯已将此接口关闭，所以国服无法继续使用
+
 ## 英雄联盟一键解锁战斗福利
 利用League of legends LCU API解锁无限火力/无限乱斗模式的战斗福利。
 
